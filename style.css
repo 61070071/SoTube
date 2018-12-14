@@ -4,8 +4,10 @@ body {
 }
 
 body{
-    background-color: #fef8d4
+    background-image: url("backG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body{
-    color: #000000
+    color: #FFFFFF
 }
