@@ -1,5 +1,16 @@
-Music, 305128204
-Comady, 233424236
-Gaming, 210374674
-Entertainment, 191816721
-Education, 150973416
+Music,305128204
+Comady,233424236
+Gaming,210374674
+Entertainment,191816721
+Education,150973416
+Auto & Vehocles,6119079
+Film,20291669
+How to & Style,42851903
+News & Politics,5033440
+Non profit & Activism,3799797
+People & Blogs,17959757
+Pets,13379913
+Science,3447615
+Shows,36916161
+Sports,37307297
+Travel,3427127
