@@ -729,3 +729,36 @@ line_chart.add(users_data16[7], views_data16[7])
 line_chart.add(users_data16[8], views_data16[8])
 line_chart.add(users_data16[9], views_data16[9])
 line_chart.render_to_file('Line_sport.svg')
+
+
+users_data17 = []
+views_data17 = []
+
+with open('../Database/Top_Views.txt') as csvfile_views:
+    readfile_views = csv.reader(csvfile_views, delimiter=',')
+
+    for line in readfile_views:
+        user_data17 = str(line[0])
+        view_data17 = int(line[1])
+        users_data17.append(user_data17)
+        views_data17.append(view_data17)
+
+# print(users_data17, subs_data17, views_data17)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'TOP VIEWS'
+pie_chart.add(users_data17[0], views_data17[0])
+pie_chart.add(users_data17[1], views_data17[1])
+pie_chart.add(users_data17[2], views_data17[2])
+pie_chart.add(users_data17[3], views_data17[3])
+pie_chart.add(users_data17[4], views_data17[4])
+pie_chart.render_to_file('Pie_views.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'TOP VIEWS'
+line_chart.add(users_data17[0], views_data17[0])
+line_chart.add(users_data17[1], views_data17[1])
+line_chart.add(users_data17[2], views_data17[2])
+line_chart.add(users_data17[3], views_data17[3])
+line_chart.add(users_data17[4], views_data17[4])
+line_chart.render_to_file('Line_views.svg')
