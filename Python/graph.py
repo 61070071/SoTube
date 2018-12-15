@@ -78,6 +78,20 @@ pie_chart.add(users_data2[8], views_data2[8])
 pie_chart.add(users_data2[9], views_data2[9])
 pie_chart.render_to_file('Pie_com.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'COMEDY'
+line_chart.add(users_data2[0], views_data2[0])
+line_chart.add(users_data2[1], views_data2[1])
+line_chart.add(users_data2[2], views_data2[2])
+line_chart.add(users_data2[3], views_data2[3])
+line_chart.add(users_data2[4], views_data2[4])
+line_chart.add(users_data2[5], views_data2[5])
+line_chart.add(users_data2[6], views_data2[6])
+line_chart.add(users_data2[7], views_data2[7])
+line_chart.add(users_data2[8], views_data2[8])
+line_chart.add(users_data2[9], views_data2[9])
+line_chart.render_to_file('Line_com.svg')
+
 users_data2 = []
 subs_data2 = []
 views_data2 = []
