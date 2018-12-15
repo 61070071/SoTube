@@ -435,3 +435,65 @@ pie_chart.add(users_data12[7], views_data12[7])
 pie_chart.add(users_data12[8], views_data12[8])
 pie_chart.add(users_data12[9], views_data12[9])
 pie_chart.render_to_file('Pie_people.svg')
+
+users_data13 = []
+subs_data13 = []
+views_data13 = []
+
+with open('../Database/pets.txt') as csvfile_pet:
+    readfile_pet = csv.reader(csvfile_pet, delimiter=',')
+
+    for line in readfile_pet:
+        user_data13 = str(line[0])
+        sub_data13 = int(line[1])
+        view_data13 = int(line[2])
+        users_data13.append(user_data13)
+        subs_data13.append(sub_data13)
+        views_data13.append(view_data13)
+
+# print(users_data13, subs_data13, views_data13)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'PETS'
+pie_chart.add(users_data13[0], views_data13[0])
+pie_chart.add(users_data13[1], views_data13[1])
+pie_chart.add(users_data13[2], views_data13[2])
+pie_chart.add(users_data13[3], views_data13[3])
+pie_chart.add(users_data13[4], views_data13[4])
+pie_chart.add(users_data13[5], views_data13[5])
+pie_chart.add(users_data13[6], views_data13[6])
+pie_chart.add(users_data13[7], views_data13[7])
+pie_chart.add(users_data13[8], views_data13[8])
+pie_chart.add(users_data13[9], views_data13[9])
+pie_chart.render_to_file('Pie_pet.svg')
+
+users_data14 = []
+subs_data14 = []
+views_data14 = []
+
+with open('../Database/Science-Tecgnology.txt') as csvfile_sci:
+    readfile_sci = csv.reader(csvfile_sci, delimiter=',')
+
+    for line in readfile_sci:
+        user_data14 = str(line[0])
+        sub_data14 = int(line[1])
+        view_data14 = int(line[2])
+        users_data14.append(user_data14)
+        subs_data14.append(sub_data14)
+        views_data14.append(view_data14)
+
+# print(users_data14, subs_data14, views_data14)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'SCIENCE & TECGNOLOGY'
+pie_chart.add(users_data14[0], views_data14[0])
+pie_chart.add(users_data14[1], views_data14[1])
+pie_chart.add(users_data14[2], views_data14[2])
+pie_chart.add(users_data14[3], views_data14[3])
+pie_chart.add(users_data14[4], views_data14[4])
+pie_chart.add(users_data14[5], views_data14[5])
+pie_chart.add(users_data14[6], views_data14[6])
+pie_chart.add(users_data14[7], views_data14[7])
+pie_chart.add(users_data14[8], views_data14[8])
+pie_chart.add(users_data14[9], views_data14[9])
+pie_chart.render_to_file('Pie_sci.svg')
