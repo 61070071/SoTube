@@ -348,6 +348,21 @@ pie_chart.add(users_data8[8], views_data8[8])
 pie_chart.add(users_data8[9], views_data8[9])
 pie_chart.render_to_file('Pie_music.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'MUSIC'
+line_chart.add(users_data8[0], views_data8[0])
+line_chart.add(users_data8[1], views_data8[1])
+line_chart.add(users_data8[2], views_data8[2])
+line_chart.add(users_data8[3], views_data8[3])
+line_chart.add(users_data8[4], views_data8[4])
+line_chart.add(users_data8[5], views_data8[5])
+line_chart.add(users_data8[6], views_data8[6])
+line_chart.add(users_data8[7], views_data8[7])
+line_chart.add(users_data8[8], views_data8[8])
+line_chart.add(users_data8[9], views_data8[9])
+line_chart.render_to_file('Line_music.svg')
+
+
 users_data9 = []
 subs_data9 = []
 views_data9 = []
@@ -379,6 +394,21 @@ pie_chart.add(users_data9[8], views_data9[8])
 pie_chart.add(users_data9[9], views_data9[9])
 pie_chart.render_to_file('Pie_news.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'NEWS'
+line_chart.add(users_data9[0], views_data9[0])
+line_chart.add(users_data9[1], views_data9[1])
+line_chart.add(users_data9[2], views_data9[2])
+line_chart.add(users_data9[3], views_data9[3])
+line_chart.add(users_data9[4], views_data9[4])
+line_chart.add(users_data9[5], views_data9[5])
+line_chart.add(users_data9[6], views_data9[6])
+line_chart.add(users_data9[7], views_data9[7])
+line_chart.add(users_data9[8], views_data9[8])
+line_chart.add(users_data9[9], views_data9[9])
+line_chart.render_to_file('Line_news.svg')
+
+
 users_data10 = []
 subs_data10 = []
 views_data10 = []
@@ -409,6 +439,21 @@ pie_chart.add(users_data10[7], views_data10[7])
 pie_chart.add(users_data10[8], views_data10[8])
 pie_chart.add(users_data10[9], views_data10[9])
 pie_chart.render_to_file('Pie_travel.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'TRAVEL'
+line_chart.add(users_data10[0], views_data10[0])
+line_chart.add(users_data10[1], views_data10[1])
+line_chart.add(users_data10[2], views_data10[2])
+line_chart.add(users_data10[3], views_data10[3])
+line_chart.add(users_data10[4], views_data10[4])
+line_chart.add(users_data10[5], views_data10[5])
+line_chart.add(users_data10[6], views_data10[6])
+line_chart.add(users_data10[7], views_data10[7])
+line_chart.add(users_data10[8], views_data10[8])
+line_chart.add(users_data10[9], views_data10[9])
+line_chart.render_to_file('Line_travel.svg')
+
 
 users_data11 = []
 subs_data11 = []
