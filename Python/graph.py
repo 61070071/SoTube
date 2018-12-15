@@ -213,6 +213,20 @@ pie_chart.add(users_data5[8], views_data5[8])
 pie_chart.add(users_data5[9], views_data5[9])
 pie_chart.render_to_file('Pie_film.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'FILM'
+line_chart.add(users_data5[0], views_data5[0])
+line_chart.add(users_data5[1], views_data5[1])
+line_chart.add(users_data5[2], views_data5[2])
+line_chart.add(users_data5[3], views_data5[3])
+line_chart.add(users_data5[4], views_data5[4])
+line_chart.add(users_data5[5], views_data5[5])
+line_chart.add(users_data5[6], views_data5[6])
+line_chart.add(users_data5[7], views_data5[7])
+line_chart.add(users_data5[8], views_data5[8])
+line_chart.add(users_data5[9], views_data5[9])
+line_chart.render_to_file('Line_film.svg')
+
 users_data5 = []
 subs_data5 = []
 views_data5 = []
