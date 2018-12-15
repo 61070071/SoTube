@@ -156,3 +156,34 @@ pie_chart.add(users_data4[7], views_data4[7])
 pie_chart.add(users_data4[8], views_data4[8])
 pie_chart.add(users_data4[9], views_data4[9])
 pie_chart.render_to_file('Pie_entertain.svg')
+
+users_data5 = []
+subs_data5 = []
+views_data5 = []
+
+with open('../Database/film.txt') as csvfile_flim:
+    readfile_flim = csv.reader(csvfile_flim, delimiter=',')
+
+    for line in readfile_flim:
+        user_data5 = str(line[0])
+        sub_data5 = int(line[1])
+        view_data5 = int(line[2])
+        users_data5.append(user_data5)
+        subs_data5.append(sub_data5)
+        views_data5.append(view_data5)
+
+# print(users_data5, subs_data5, views_data5)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'FILM'
+pie_chart.add(users_data5[0], views_data5[0])
+pie_chart.add(users_data5[1], views_data5[1])
+pie_chart.add(users_data5[2], views_data5[2])
+pie_chart.add(users_data5[3], views_data5[3])
+pie_chart.add(users_data5[4], views_data5[4])
+pie_chart.add(users_data5[5], views_data5[5])
+pie_chart.add(users_data5[6], views_data5[6])
+pie_chart.add(users_data5[7], views_data5[7])
+pie_chart.add(users_data5[8], views_data5[8])
+pie_chart.add(users_data5[9], views_data5[9])
+pie_chart.render_to_file('Pie_film.svg')
