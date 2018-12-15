@@ -762,3 +762,35 @@ line_chart.add(users_data17[2], views_data17[2])
 line_chart.add(users_data17[3], views_data17[3])
 line_chart.add(users_data17[4], views_data17[4])
 line_chart.render_to_file('Line_views.svg')
+
+users_data18 = []
+views_data18 = []
+
+with open('../Database/Top_Subs.txt') as csvfile_subs:
+    readfile_subs = csv.reader(csvfile_subs, delimiter=',')
+
+    for line in readfile_subs:
+        user_data18 = str(line[0])
+        view_data18 = int(line[1])
+        users_data18.append(user_data18)
+        views_data18.append(view_data18)
+
+# print(users_data18, subs_data18, views_data18)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'TOP SUBS'
+pie_chart.add(users_data18[0], views_data18[0])
+pie_chart.add(users_data18[1], views_data18[1])
+pie_chart.add(users_data18[2], views_data18[2])
+pie_chart.add(users_data18[3], views_data18[3])
+pie_chart.add(users_data18[4], views_data18[4])
+pie_chart.render_to_file('Pie_subs.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'TOP SUBS'
+line_chart.add(users_data18[0], views_data18[0])
+line_chart.add(users_data18[1], views_data18[1])
+line_chart.add(users_data18[2], views_data18[2])
+line_chart.add(users_data18[3], views_data18[3])
+line_chart.add(users_data18[4], views_data18[4])
+line_chart.render_to_file('Line_subs.svg')
