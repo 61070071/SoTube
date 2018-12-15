@@ -92,37 +92,6 @@ line_chart.add(users_data2[8], views_data2[8])
 line_chart.add(users_data2[9], views_data2[9])
 line_chart.render_to_file('Line_com.svg')
 
-users_data2 = []
-subs_data2 = []
-views_data2 = []
-
-with open('../Database/COMEDY.txt') as csvfile_com:
-    readfile_com = csv.reader(csvfile_com, delimiter=',')
-
-    for line in readfile_com:
-        user_data2 = str(line[0])
-        sub_data2 = int(line[1])
-        view_data2 = int(line[2])
-        users_data2.append(user_data2)
-        subs_data2.append(sub_data2)
-        views_data2.append(view_data2)
-
-# print(users_data2, subs_data2, views_data2)
-
-pie_chart = pygal.Pie()
-pie_chart.title = 'COMEDY'
-pie_chart.add(users_data2[0], views_data2[0])
-pie_chart.add(users_data2[1], views_data2[1])
-pie_chart.add(users_data2[2], views_data2[2])
-pie_chart.add(users_data2[3], views_data2[3])
-pie_chart.add(users_data2[4], views_data2[4])
-pie_chart.add(users_data2[5], views_data2[5])
-pie_chart.add(users_data2[6], views_data2[6])
-pie_chart.add(users_data2[7], views_data2[7])
-pie_chart.add(users_data2[8], views_data2[8])
-pie_chart.add(users_data2[9], views_data2[9])
-pie_chart.render_to_file('Pie_com.svg')
-
 users_data3 = []
 subs_data3 = []
 views_data3 = []
@@ -154,6 +123,20 @@ pie_chart.add(users_data3[8], views_data3[8])
 pie_chart.add(users_data3[9], views_data3[9])
 pie_chart.render_to_file('Pie_edu.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'EDUCATION'
+line_chart.add(users_data3[0], views_data3[0])
+line_chart.add(users_data3[1], views_data3[1])
+line_chart.add(users_data3[2], views_data3[2])
+line_chart.add(users_data3[3], views_data3[3])
+line_chart.add(users_data3[4], views_data3[4])
+line_chart.add(users_data3[5], views_data3[5])
+line_chart.add(users_data3[6], views_data3[6])
+line_chart.add(users_data3[7], views_data3[7])
+line_chart.add(users_data3[8], views_data3[8])
+line_chart.add(users_data3[9], views_data3[9])
+line_chart.render_to_file('Line_edu.svg')
+
 users_data4 = []
 subs_data4 = []
 views_data4 = []
@@ -184,6 +167,20 @@ pie_chart.add(users_data4[7], views_data4[7])
 pie_chart.add(users_data4[8], views_data4[8])
 pie_chart.add(users_data4[9], views_data4[9])
 pie_chart.render_to_file('Pie_entertain.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'ENTERTAINMENT'
+line_chart.add(users_data4[0], views_data4[0])
+line_chart.add(users_data4[1], views_data4[1])
+line_chart.add(users_data4[2], views_data4[2])
+line_chart.add(users_data4[3], views_data4[3])
+line_chart.add(users_data4[4], views_data4[4])
+line_chart.add(users_data4[5], views_data4[5])
+line_chart.add(users_data4[6], views_data4[6])
+line_chart.add(users_data4[7], views_data4[7])
+line_chart.add(users_data4[8], views_data4[8])
+line_chart.add(users_data4[9], views_data4[9])
+line_chart.render_to_file('Line_entertain.svg')
 
 users_data5 = []
 subs_data5 = []
