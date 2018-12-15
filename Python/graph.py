@@ -342,3 +342,65 @@ pie_chart.add(users_data9[7], views_data9[7])
 pie_chart.add(users_data9[8], views_data9[8])
 pie_chart.add(users_data9[9], views_data9[9])
 pie_chart.render_to_file('Pie_news.svg')
+
+users_data10 = []
+subs_data10 = []
+views_data10 = []
+
+with open('../Database/Travel.txt') as csvfile_Travel:
+    readfile_Travel = csv.reader(csvfile_Travel, delimiter=',')
+
+    for line in readfile_Travel:
+        user_data10 = str(line[0])
+        sub_data10 = int(line[1])
+        view_data10 = int(line[2])
+        users_data10.append(user_data10)
+        subs_data10.append(sub_data10)
+        views_data10.append(view_data10)
+
+# print(users_data10, subs_data10, views_data10)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'TRAVEL'
+pie_chart.add(users_data10[0], views_data10[0])
+pie_chart.add(users_data10[1], views_data10[1])
+pie_chart.add(users_data10[2], views_data10[2])
+pie_chart.add(users_data10[3], views_data10[3])
+pie_chart.add(users_data10[4], views_data10[4])
+pie_chart.add(users_data10[5], views_data10[5])
+pie_chart.add(users_data10[6], views_data10[6])
+pie_chart.add(users_data10[7], views_data10[7])
+pie_chart.add(users_data10[8], views_data10[8])
+pie_chart.add(users_data10[9], views_data10[9])
+pie_chart.render_to_file('Pie_travel.svg')
+
+users_data11 = []
+subs_data11 = []
+views_data11 = []
+
+with open('../Database/nonprofit.txt') as csvfile_nonprofit:
+    readfile_nonprofit = csv.reader(csvfile_nonprofit, delimiter=',')
+
+    for line in readfile_nonprofit:
+        user_data11 = str(line[0])
+        sub_data11 = int(line[1])
+        view_data11 = int(line[2])
+        users_data11.append(user_data11)
+        subs_data11.append(sub_data11)
+        views_data11.append(view_data11)
+
+# print(users_data11, subs_data11, views_data11)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'NONPROFIT'
+pie_chart.add(users_data11[0], views_data11[0])
+pie_chart.add(users_data11[1], views_data11[1])
+pie_chart.add(users_data11[2], views_data11[2])
+pie_chart.add(users_data11[3], views_data11[3])
+pie_chart.add(users_data11[4], views_data11[4])
+pie_chart.add(users_data11[5], views_data11[5])
+pie_chart.add(users_data11[6], views_data11[6])
+pie_chart.add(users_data11[7], views_data11[7])
+pie_chart.add(users_data11[8], views_data11[8])
+pie_chart.add(users_data11[9], views_data11[9])
+pie_chart.render_to_file('Pie_nonprofit.svg')
