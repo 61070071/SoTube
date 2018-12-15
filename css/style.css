@@ -68,12 +68,12 @@ hr {
 }
 #menu a.navbar-brand {
 	font-size: 20px;
-	color: #fff;
+	color: #444;
 	font-weight: 500;
 	text-transform: uppercase;
 }
 #menu a.navbar-brand i.fa {
-	color: #fff;
+	color: #ff0004;
 	vertical-align: top;
 }
 #menu.navbar-default .navbar-nav > li > a {
