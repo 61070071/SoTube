@@ -670,6 +670,21 @@ pie_chart.add(users_data15[8], views_data15[8])
 pie_chart.add(users_data15[9], views_data15[9])
 pie_chart.render_to_file('Pie_show.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'SHOWS'
+line_chart.add(users_data15[0], views_data15[0])
+line_chart.add(users_data15[1], views_data15[1])
+line_chart.add(users_data15[2], views_data15[2])
+line_chart.add(users_data15[3], views_data15[3])
+line_chart.add(users_data15[4], views_data15[4])
+line_chart.add(users_data15[5], views_data15[5])
+line_chart.add(users_data15[6], views_data15[6])
+line_chart.add(users_data15[7], views_data15[7])
+line_chart.add(users_data15[8], views_data15[8])
+line_chart.add(users_data15[9], views_data15[9])
+line_chart.render_to_file('Line_show.svg')
+
+
 users_data16 = []
 subs_data16 = []
 views_data16 = []
@@ -700,3 +715,17 @@ pie_chart.add(users_data16[7], views_data16[7])
 pie_chart.add(users_data16[8], views_data16[8])
 pie_chart.add(users_data16[9], views_data16[9])
 pie_chart.render_to_file('Pie_sport.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'SPORTS'
+line_chart.add(users_data16[0], views_data16[0])
+line_chart.add(users_data16[1], views_data16[1])
+line_chart.add(users_data16[2], views_data16[2])
+line_chart.add(users_data16[3], views_data16[3])
+line_chart.add(users_data16[4], views_data16[4])
+line_chart.add(users_data16[5], views_data16[5])
+line_chart.add(users_data16[6], views_data16[6])
+line_chart.add(users_data16[7], views_data16[7])
+line_chart.add(users_data16[8], views_data16[8])
+line_chart.add(users_data16[9], views_data16[9])
+line_chart.render_to_file('Line_sport.svg')
