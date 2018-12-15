@@ -223,7 +223,7 @@ users_data6 = []
 subs_data6 = []
 views_data6 = []
 
-with open('../Database/film.txt') as csvfile_gamimg:
+with open('../Database/gaming.txt') as csvfile_gamimg:
     readfile_gamimg = csv.reader(csvfile_gamimg, delimiter=',')
 
     for line in readfile_gamimg:
@@ -249,3 +249,65 @@ pie_chart.add(users_data6[7], views_data6[7])
 pie_chart.add(users_data6[8], views_data6[8])
 pie_chart.add(users_data6[9], views_data6[9])
 pie_chart.render_to_file('Pie_gamimg.svg')
+
+users_data7 = []
+subs_data7 = []
+views_data7 = []
+
+with open('../Database/howto.txt') as csvfile_howto:
+    readfile_howto = csv.reader(csvfile_howto, delimiter=',')
+
+    for line in readfile_howto:
+        user_data7 = str(line[0])
+        sub_data7 = int(line[1])
+        view_data7 = int(line[2])
+        users_data7.append(user_data7)
+        subs_data7.append(sub_data7)
+        views_data7.append(view_data7)
+
+# print(users_data7, subs_data7, views_data7)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'HOW TO & STYLE'
+pie_chart.add(users_data7[0], views_data7[0])
+pie_chart.add(users_data7[1], views_data7[1])
+pie_chart.add(users_data7[2], views_data7[2])
+pie_chart.add(users_data7[3], views_data7[3])
+pie_chart.add(users_data7[4], views_data7[4])
+pie_chart.add(users_data7[5], views_data7[5])
+pie_chart.add(users_data7[6], views_data7[6])
+pie_chart.add(users_data7[7], views_data7[7])
+pie_chart.add(users_data7[8], views_data7[8])
+pie_chart.add(users_data7[9], views_data7[9])
+pie_chart.render_to_file('Pie_howto.svg')
+
+users_data8 = []
+subs_data8 = []
+views_data8 = []
+
+with open('../Database/music.txt') as csvfile_music:
+    readfile_music = csv.reader(csvfile_music, delimiter=',')
+
+    for line in readfile_music:
+        user_data8 = str(line[0])
+        sub_data8 = int(line[1])
+        view_data8 = int(line[2])
+        users_data8.append(user_data8)
+        subs_data8.append(sub_data8)
+        views_data8.append(view_data8)
+
+# print(users_data8, subs_data8, views_data8)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'MUSIC'
+pie_chart.add(users_data8[0], views_data8[0])
+pie_chart.add(users_data8[1], views_data8[1])
+pie_chart.add(users_data8[2], views_data8[2])
+pie_chart.add(users_data8[3], views_data8[3])
+pie_chart.add(users_data8[4], views_data8[4])
+pie_chart.add(users_data8[5], views_data8[5])
+pie_chart.add(users_data8[6], views_data8[6])
+pie_chart.add(users_data8[7], views_data8[7])
+pie_chart.add(users_data8[8], views_data8[8])
+pie_chart.add(users_data8[9], views_data8[9])
+pie_chart.render_to_file('Pie_music.svg')
