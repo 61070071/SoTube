@@ -303,6 +303,20 @@ pie_chart.add(users_data7[8], views_data7[8])
 pie_chart.add(users_data7[9], views_data7[9])
 pie_chart.render_to_file('Pie_howto.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'HOW TO & STYLE'
+line_chart.add(users_data7[0], views_data7[0])
+line_chart.add(users_data7[1], views_data7[1])
+line_chart.add(users_data7[2], views_data7[2])
+line_chart.add(users_data7[3], views_data7[3])
+line_chart.add(users_data7[4], views_data7[4])
+line_chart.add(users_data7[5], views_data7[5])
+line_chart.add(users_data7[6], views_data7[6])
+line_chart.add(users_data7[7], views_data7[7])
+line_chart.add(users_data7[8], views_data7[8])
+line_chart.add(users_data7[9], views_data7[9])
+line_chart.render_to_file('Line_howto.svg')
+
 users_data8 = []
 subs_data8 = []
 views_data8 = []
