@@ -33,6 +33,20 @@ pie_chart.add(users_data1[8], views_data1[8])
 pie_chart.add(users_data1[9], views_data1[9])
 pie_chart.render_to_file('Pie_auto.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'AUTOS & VEHICLES'
+line_chart.add(users_data1[0], views_data1[0])
+line_chart.add(users_data1[1], views_data1[1])
+line_chart.add(users_data1[2], views_data1[2])
+line_chart.add(users_data1[3], views_data1[3])
+line_chart.add(users_data1[4], views_data1[4])
+line_chart.add(users_data1[5], views_data1[5])
+line_chart.add(users_data1[6], views_data1[6])
+line_chart.add(users_data1[7], views_data1[7])
+line_chart.add(users_data1[8], views_data1[8])
+line_chart.add(users_data1[9], views_data1[9])
+line_chart.render_to_file('Line_auto.svg')
+
 users_data2 = []
 subs_data2 = []
 views_data2 = []
