@@ -486,6 +486,21 @@ pie_chart.add(users_data11[8], views_data11[8])
 pie_chart.add(users_data11[9], views_data11[9])
 pie_chart.render_to_file('Pie_nonprofit.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'NONPROFIT'
+line_chart.add(users_data11[0], views_data11[0])
+line_chart.add(users_data11[1], views_data11[1])
+line_chart.add(users_data11[2], views_data11[2])
+line_chart.add(users_data11[3], views_data11[3])
+line_chart.add(users_data11[4], views_data11[4])
+line_chart.add(users_data11[5], views_data11[5])
+line_chart.add(users_data11[6], views_data11[6])
+line_chart.add(users_data11[7], views_data11[7])
+line_chart.add(users_data11[8], views_data11[8])
+line_chart.add(users_data11[9], views_data11[9])
+line_chart.render_to_file('Line_nonprofit.svg')
+
+
 users_data12 = []
 subs_data12 = []
 views_data12 = []
@@ -516,6 +531,21 @@ pie_chart.add(users_data12[7], views_data12[7])
 pie_chart.add(users_data12[8], views_data12[8])
 pie_chart.add(users_data12[9], views_data12[9])
 pie_chart.render_to_file('Pie_people.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'PEOPLE'
+line_chart.add(users_data12[0], views_data12[0])
+line_chart.add(users_data12[1], views_data12[1])
+line_chart.add(users_data12[2], views_data12[2])
+line_chart.add(users_data12[3], views_data12[3])
+line_chart.add(users_data12[4], views_data12[4])
+line_chart.add(users_data12[5], views_data12[5])
+line_chart.add(users_data12[6], views_data12[6])
+line_chart.add(users_data12[7], views_data12[7])
+line_chart.add(users_data12[8], views_data12[8])
+line_chart.add(users_data12[9], views_data12[9])
+line_chart.render_to_file('Line_people.svg')
+
 
 users_data13 = []
 subs_data13 = []
@@ -548,6 +578,21 @@ pie_chart.add(users_data13[8], views_data13[8])
 pie_chart.add(users_data13[9], views_data13[9])
 pie_chart.render_to_file('Pie_pet.svg')
 
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'PETS'
+line_chart.add(users_data13[0], views_data13[0])
+line_chart.add(users_data13[1], views_data13[1])
+line_chart.add(users_data13[2], views_data13[2])
+line_chart.add(users_data13[3], views_data13[3])
+line_chart.add(users_data13[4], views_data13[4])
+line_chart.add(users_data13[5], views_data13[5])
+line_chart.add(users_data13[6], views_data13[6])
+line_chart.add(users_data13[7], views_data13[7])
+line_chart.add(users_data13[8], views_data13[8])
+line_chart.add(users_data13[9], views_data13[9])
+line_chart.render_to_file('Line_pet.svg')
+
+
 users_data14 = []
 subs_data14 = []
 views_data14 = []
@@ -578,6 +623,21 @@ pie_chart.add(users_data14[7], views_data14[7])
 pie_chart.add(users_data14[8], views_data14[8])
 pie_chart.add(users_data14[9], views_data14[9])
 pie_chart.render_to_file('Pie_sci.svg')
+
+line_chart = pygal.HorizontalBar()
+line_chart.title = 'SCIENCE & TECGNOLOGY'
+line_chart.add(users_data14[0], views_data14[0])
+line_chart.add(users_data14[1], views_data14[1])
+line_chart.add(users_data14[2], views_data14[2])
+line_chart.add(users_data14[3], views_data14[3])
+line_chart.add(users_data14[4], views_data14[4])
+line_chart.add(users_data14[5], views_data14[5])
+line_chart.add(users_data14[6], views_data14[6])
+line_chart.add(users_data14[7], views_data14[7])
+line_chart.add(users_data14[8], views_data14[8])
+line_chart.add(users_data14[9], views_data14[9])
+line_chart.render_to_file('Line_sci.svg')
+
 
 users_data15 = []
 subs_data15 = []
