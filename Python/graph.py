@@ -311,3 +311,34 @@ pie_chart.add(users_data8[7], views_data8[7])
 pie_chart.add(users_data8[8], views_data8[8])
 pie_chart.add(users_data8[9], views_data8[9])
 pie_chart.render_to_file('Pie_music.svg')
+
+users_data9 = []
+subs_data9 = []
+views_data9 = []
+
+with open('../Database/news.txt') as csvfile_news:
+    readfile_news = csv.reader(csvfile_news, delimiter=',')
+
+    for line in readfile_news:
+        user_data9 = str(line[0])
+        sub_data9 = int(line[1])
+        view_data9 = int(line[2])
+        users_data9.append(user_data9)
+        subs_data9.append(sub_data9)
+        views_data9.append(view_data9)
+
+# print(users_data9, subs_data9, views_data9)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'NEWS'
+pie_chart.add(users_data9[0], views_data9[0])
+pie_chart.add(users_data9[1], views_data9[1])
+pie_chart.add(users_data9[2], views_data9[2])
+pie_chart.add(users_data9[3], views_data9[3])
+pie_chart.add(users_data9[4], views_data9[4])
+pie_chart.add(users_data9[5], views_data9[5])
+pie_chart.add(users_data9[6], views_data9[6])
+pie_chart.add(users_data9[7], views_data9[7])
+pie_chart.add(users_data9[8], views_data9[8])
+pie_chart.add(users_data9[9], views_data9[9])
+pie_chart.render_to_file('Pie_news.svg')
