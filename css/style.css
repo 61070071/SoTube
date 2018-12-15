@@ -114,7 +114,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #0ba2db;
+	background-color: #444444;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -124,8 +124,8 @@ hr {
 	transition: all 0.3s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
-	background-color: #444;
+	color: #ff0004;
+	background-color: #fff;
 }
 /* Header Section */
 .intro {
