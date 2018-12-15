@@ -497,3 +497,34 @@ pie_chart.add(users_data14[7], views_data14[7])
 pie_chart.add(users_data14[8], views_data14[8])
 pie_chart.add(users_data14[9], views_data14[9])
 pie_chart.render_to_file('Pie_sci.svg')
+
+users_data15 = []
+subs_data15 = []
+views_data15 = []
+
+with open('../Database/Shows.txt') as csvfile_show:
+    readfile_show = csv.reader(csvfile_show, delimiter=',')
+
+    for line in readfile_show:
+        user_data15 = str(line[0])
+        sub_data15 = int(line[1])
+        view_data15 = int(line[2])
+        users_data15.append(user_data15)
+        subs_data15.append(sub_data15)
+        views_data15.append(view_data15)
+
+# print(users_data15, subs_data15, views_data15)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'SHOWS'
+pie_chart.add(users_data15[0], views_data15[0])
+pie_chart.add(users_data15[1], views_data15[1])
+pie_chart.add(users_data15[2], views_data15[2])
+pie_chart.add(users_data15[3], views_data15[3])
+pie_chart.add(users_data15[4], views_data15[4])
+pie_chart.add(users_data15[5], views_data15[5])
+pie_chart.add(users_data15[6], views_data15[6])
+pie_chart.add(users_data15[7], views_data15[7])
+pie_chart.add(users_data15[8], views_data15[8])
+pie_chart.add(users_data15[9], views_data15[9])
+pie_chart.render_to_file('Pie_show.svg')
