@@ -404,3 +404,34 @@ pie_chart.add(users_data11[7], views_data11[7])
 pie_chart.add(users_data11[8], views_data11[8])
 pie_chart.add(users_data11[9], views_data11[9])
 pie_chart.render_to_file('Pie_nonprofit.svg')
+
+users_data12 = []
+subs_data12 = []
+views_data12 = []
+
+with open('../Database/people.txt') as csvfile_people:
+    readfile_people = csv.reader(csvfile_people, delimiter=',')
+
+    for line in readfile_people:
+        user_data12 = str(line[0])
+        sub_data12 = int(line[1])
+        view_data12 = int(line[2])
+        users_data12.append(user_data12)
+        subs_data12.append(sub_data12)
+        views_data12.append(view_data12)
+
+# print(users_data12, subs_data12, views_data12)
+
+pie_chart = pygal.Pie()
+pie_chart.title = 'PEOPLE'
+pie_chart.add(users_data12[0], views_data12[0])
+pie_chart.add(users_data12[1], views_data12[1])
+pie_chart.add(users_data12[2], views_data12[2])
+pie_chart.add(users_data12[3], views_data12[3])
+pie_chart.add(users_data12[4], views_data12[4])
+pie_chart.add(users_data12[5], views_data12[5])
+pie_chart.add(users_data12[6], views_data12[6])
+pie_chart.add(users_data12[7], views_data12[7])
+pie_chart.add(users_data12[8], views_data12[8])
+pie_chart.add(users_data12[9], views_data12[9])
+pie_chart.render_to_file('Pie_people.svg')
