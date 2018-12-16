@@ -15,14 +15,9 @@ This project is about doing data analysis. We've chosen the title *Video Game Sa
 
 ## Information
 
-**Project Site:** https://810teams.github.io/Video-Game-Sales/  
-**Last Updated:** 18th August 2018  
-**Project Status:** Completed / Discontinued
+**เริ่มงานวันที่ :** https://810teams.github.io/Video-Game-Sales/  
+**เสร็จสมบูรณ์ :** 18th August 2018  
+**ปัญหาที่พบ :** Completed / Discontinued
+**การทำงาน :** 10th November 2017  
+**ภาษาที่ใช้ :** 13th December 2017  
 
-## Statistics
-
-**Started:** 10th November 2017  
-**Completed:** 13th December 2017  
-**Total Days:** 34 Days  
-**Main Language:** Python  
-**Other Language:** HTML, CSS, JavaScript
