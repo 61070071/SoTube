@@ -8,16 +8,11 @@
 **การทำงาน :** ทุกคนทำงานร่วมกันได้ดีมาก แต่ละคนมีหน้าที่ชัดเจน การนัดทำงานแต่ละครั้งจะมีการระบุหน้าที่ งานที่ต้องทำ และเวลาที่กำหนดชัดเจน**
 **ภาษาที่ใช้ :** Python , Html, Css
 
-# Video-Game-Sales
-This project is a part of the subject Problem Solving in Information Technology *(PSIT)*, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
-
-This project is about doing data analysis. We've chosen the title *Video Game Sales* for this project. Our main target is to determine factors that affects the video game sales, starting from 1980 to 2016.
-
 ## Information
 
 **เริ่มงานวันที่ :** https://810teams.github.io/Video-Game-Sales/  
 **เสร็จสมบูรณ์ :** 18th August 2018  
-**ปัญหาที่พบ :** Completed / Discontinued
+**ปัญหาที่พบ :** Completed / Discontinued  
 **การทำงาน :** 10th November 2017  
 **ภาษาที่ใช้ :** 13th December 2017  
 
