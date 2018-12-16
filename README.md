@@ -9,4 +9,5 @@
 **การทำงาน :** ทุกคนทำงานร่วมกันได้ดีมาก แต่ละคนมีหน้าที่ชัดเจน การนัดทำงานแต่ละครั้งจะมีการระบุหน้าที่ งานที่ต้องทำ และเวลาที่กำหนดชัดเจน   
 **ภาษาที่ใช้ :** Python , Html, Css  
 
-
+## สมาชิกกลุ่ม
+|<img src="docs/img/team/00.jpg" width="120px" height="120px">|<img src="docs/img/team/01.jpg" width="120px" height="120px">|<img src="docs/img/team/02.jpg" width="120px" height="120px">|<img src="docs/img/team/03.jpg" width="120px" height="120px">|
