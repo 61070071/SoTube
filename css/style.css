@@ -390,6 +390,7 @@ color: #777;
 a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
 	outline: none;
 	outline-offset: none;
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
