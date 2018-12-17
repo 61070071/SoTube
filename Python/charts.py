@@ -836,3 +836,26 @@ line_chart.add(users_data18[13], views_data18[13])
 line_chart.add(users_data18[14], views_data18[14])
 line_chart.add(users_data18[15], views_data18[15])
 line_chart.render_to_file('Line_subs.svg')
+
+
+
+""" Tree Map """
+treemap = pygal.Treemap()
+treemap.title = 'Views'
+treemap.add('AUTOS & VEHICLES', views_data1)
+treemap.add('COMEDY', views_data2)
+treemap.add('EDUCATION', views_data3)
+treemap.add('ENTERTAINMENT', views_data4)
+treemap.add('FILM', views_data5)
+treemap.add('GAMING', views_data6)
+treemap.add('HOW TO & STYLE', views_data7)
+treemap.add('MUSIC', views_data8)
+treemap.add('NEWS', views_data9)
+treemap.add('NONPROFIT', views_data11)
+treemap.add('PEOPLE', views_data12)
+treemap.add('PETS', views_data13)
+treemap.add('SCIENCE-TECGNOLOGY', views_data14)
+treemap.add('SHOWS', views_data15)
+treemap.add('SPORTS', views_data16)
+treemap.add('TRAVEL', views_data10)
+treemap.render_to_file('Tree_maps.svg')
