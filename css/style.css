@@ -404,6 +404,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
+
 ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {
@@ -421,6 +422,7 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
+
 /* Footer Section*/
 #footer {
 	background: #e6e6e6;
